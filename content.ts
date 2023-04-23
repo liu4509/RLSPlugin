@@ -1,7 +1,7 @@
 import type { PlasmoCSConfig } from "plasmo"
 
 export const config: PlasmoCSConfig = {
-  matches: ["http://localhost:8080/*"]
+  matches: ["https://riderx-l3.jing-chi.com/*"]
 }
 // 触发事件
 document.addEventListener("keypress", keyboard)
@@ -12,6 +12,8 @@ function keyboard(eve) {
   let key = String.fromCharCode(x)
   // 判断是否是绑定的键
   if (key == "f") {
-    document.querySelector
+    // console.log("f");
+    // let lab = document.querySelector(".ant-checkbox-input")
+    // lab.click()
   }
 }
